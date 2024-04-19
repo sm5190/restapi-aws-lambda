@@ -24,7 +24,7 @@ The following API endpoints are defined using the AWS Lambda functions:
 All lambda functions are accessible through Amazon API Gateway, and all data is returned in JSON format.
 
 ## About Database
-The schema of the database together with the tables containing some sample records is provided for this project ( see schema.sql and data.sql) . Additional records can be added to the tables as needed. For this project MSQL supported by RDS is used.
+The schema of the database together with the tables containing some sample records is provided for this project ( see schema.sql and data.sql). Additional records can be added to the tables as needed. For this project MySQL supported by AWS RDS is used.
 
 ## Other
 - All common dependencies for the lambda functions is deployed as layers. Any library/dependency used by more than one function is added as a layer.
